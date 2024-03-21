@@ -1,0 +1,222 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* Estilo para o body */
+body {
+    background-color: #01041B;
+}
+
+/* Estilo para o header */
+header {
+    height: 105px;
+    background-color: #05072F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border: none !important; /* Adicionando !important para garantir que a borda seja removida */
+}
+
+/* Estilo para o texto "FECAFMUSICA" */
+#logo {
+    width: 314px;
+    height: 41px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48.76px;
+    white-space: nowrap;
+}
+
+#logo .red {
+    color: #CF092D;
+}
+
+#logo .white {
+    color: #FFF;
+}
+
+/* Estilo para os botões */
+nav {
+    display: flex;
+    /* Alinhamento horizontal dos itens */
+}
+
+nav button {
+    width: 72px;
+    height: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24.38px;
+    color: #FFF;
+    background-color: transparent;
+    border: none;
+    margin: 0 10px;
+    white-space: nowrap;
+}
+
+/* Estilo para o botão HELP e LOGIN */
+#help-login {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24.38px;
+    color: #FFF;
+}
+
+#help-login button {
+    width: 72px;
+    height: 24px;
+    margin-right: 5px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    line-height: 24.38px;
+    color: #FFF;
+}
+
+#help-login button:last-child {
+    margin-right: 15px;
+}
+
+#help-login .pipe {
+    color: #CF092D;
+    margin: 0 5px;
+}
+
+/* Estilo para o conteúdo */
+#content {
+    display: flex;
+    /* Usando flexbox para criar layout em duas colunas */
+    align-items: center;
+    /* Alinhamento vertical dos itens */
+    justify-content: center;
+    /* Alinhamento horizontal dos itens */
+}
+
+/* Estilo para a seção */
+#sections {
+    flex: 1;
+    /* A seção ocupa todo o espaço disponível */
+    max-width: 50%;
+    /* Largura máxima de 50% */
+    padding: 20px;
+    /* Espaçamento interno */
+}
+
+/* Estilo para a div de imagem */
+.img {
+    max-width: 50%;
+    /* Largura máxima de 50% */
+    box-sizing: border-box;
+    /* Ajuste do modelo de caixa */
+    display: flex;
+    /* Flexbox para alinhar a imagem */
+    align-items: center;
+    /* Alinhamento vertical */
+    justify-content: center;
+    /* Alinhamento horizontal */
+    size: 30%
+}
+
+/* Estilo para a imagem dentro da div */
+.fifty {
+    width: 100%;
+    /* Garantindo que a imagem não ultrapasse a largura da div */
+    height: 100%;
+    /* Garantindo que a imagem não ultrapasse a altura da seção */
+    height: auto;
+    /* Permitindo que a altura seja ajustada automaticamente */
+    display: block;
+    /* Para garantir o alinhamento correto da imagem */
+}
+
+/* Estilo para seções */
+section {
+    margin-bottom: 20px;
+    /* Adicionando margem inferior para espaçamento entre as seções */
+}
+
+/* Estilo para a primeira seção */
+#section1 {
+    display: flex;
+    margin-left: 91px;
+}
+
+#section1 h2 {
+    font-family: 'Montserrat', sans-serif;
+    size: 50%;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-weight: 700;
+    font-size: 123.94px;
+    line-height: 151px;
+    letter-spacing: 5%;
+    color: #FFF;
+}
+
+#section1 .red {
+    color: #CF092D;
+}
+
+/* Estilo para a segunda seção */
+#section2 {
+    display: flex;
+    margin-left: 91px;
+}
+
+#section2 p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36.55px;
+    letter-spacing: 5%;
+    color: #FFF;
+}
+
+/* Estilo para a terceira seção */
+#section3 {
+    display: flex;
+    margin-left: 91px;
+}
+
+#section3 button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.red-btn, .purple-btn {
+    background-color: #CF092D;
+    color: #FFF;
+    border: none;
+    border-radius: 45.19px;
+    padding: 10.33px 20.66px;
+}
+
+.purple-btn {
+    background-color: #410093;
+}
+
+footer {
+    height: 100px;
+    background-color: #05072F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none !important; /* Adicionando !important para garantir que a borda seja removida */
+}
+
+footer span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36.57px;
+    color: #FFFFFF;
+    border: none !important; /* Adicionando !important para garantir que a borda seja removida */
+}
